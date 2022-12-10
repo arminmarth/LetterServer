@@ -5,9 +5,6 @@ LetterServer is a Powershell script that creates a web server on a specified por
 ## Usage
 
 1. Install the `WebAdministration` and `Microsoft.Office.Interop.Word` modules on your system.
-2. Update the `$templateFile` variable in the script with the path to your Word template file.
-3. Run the Powershell script: `.\letter_server.ps1`
-4. Follow the prompts to specify the port number, physical path, and Word template file to use for the website and letter generation.
-5. Access the website at http://localhost:<port_number> (replace `<port_number>` with the port number you specified in step 4).
-6. Write your letter using the HTML interface on the website.
-7. Submit the letter to view the merged document and save it as a new Word file.
+2. Create two new files named `index.html` and `letter.html` in the same directory as the Powershell script. These files should contain the HTML code for the default page and the letter display page, respectively.
+3. Update the `$templateFile`
+
