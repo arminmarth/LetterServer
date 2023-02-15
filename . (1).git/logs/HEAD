@@ -1,4 +1,0 @@
-0000000000000000000000000000000000000000 f339761bffce2a6cd412c4cc8c79f6298d190c51 Armin Marth <arminmarth@gmail.com> 1670629647 +1100	commit (initial): Initial commit
-f339761bffce2a6cd412c4cc8c79f6298d190c51 0c778fab4c91012f14cb6a6a67cc2526bda48ce0 Armin Marth <arminmarth@gmail.com> 1670629812 +1100	commit: Initial commit
-0c778fab4c91012f14cb6a6a67cc2526bda48ce0 0c778fab4c91012f14cb6a6a67cc2526bda48ce0 Armin Marth <arminmarth@gmail.com> 1670630412 +1100	checkout: moving from master to feature/html-templates
-0c778fab4c91012f14cb6a6a67cc2526bda48ce0 f39ad5aa763d3444d64135d3dcd0fe549e198464 Armin Marth <arminmarth@gmail.com> 1670630456 +1100	commit: Seperate HTML from powershell
