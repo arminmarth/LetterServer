@@ -1,7 +1,90 @@
-<html><head><style>
-body{font-family:Arial,sans-serif;margin:0;padding:0;background-color:#f3f3f3}
-.content{max-width:500px;margin:auto;background-color:#fff;border:1px solid #ccc;border-radius:5px;padding:16px}
-.form{margin-top:16px}
-.form textarea{width:100%;box-sizing:border-box;font-size:16px;padding:12px;border:1px solid #ccc;border-radius:4px;resize:vertical}
-.form input[type='submit']{width:100%;background-color:#4CAF50;color:#fff;padding:12px 20px;margin:8px 0;border:none;border-radius:4px;cursor:pointer;font-size:18px}
-</style></head><body><div class='content'><h1>Write Your Letter</h1><form class='form' method='post' action='letter.html'><textarea name='letter' rows='10' cols='50'></textarea><br/><input type='submit' value='Submit'></form></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LetterServer - Write Your Letter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        .content {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form {
+            margin-top: 20px;
+        }
+        .form textarea {
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 16px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            resize: vertical;
+            min-height: 200px;
+            margin-bottom: 15px;
+            font-family: inherit;
+        }
+        .form input[type='submit'] {
+            width: 100%;
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .form input[type='submit']:hover {
+            background-color: #2980b9;
+        }
+        .instructions {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border-left: 4px solid #3498db;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .instructions p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class='content'>
+        <h1>Write Your Letter</h1>
+        
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <p>Type your letter in the text area below. After submission, your letter will be merged with a template and saved as a Word document.</p>
+        </div>
+        
+        <form class='form' method='post' action='letter.html'>
+            <textarea name='letter' rows='10' placeholder="Dear Sir/Madam,&#10;&#10;Type your letter content here...&#10;&#10;Sincerely,&#10;Your Name"></textarea>
+            <input type='submit' value='Submit Letter'>
+        </form>
+    </div>
+</body>
+</html>
