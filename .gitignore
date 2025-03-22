@@ -1,0 +1,44 @@
+# PowerShell specific
+*.ps1.bak
+*.psm1.bak
+*.psd1.bak
+*.ps1xml.bak
+*.ps1.orig
+*.psm1.orig
+*.psd1.orig
+*.ps1xml.orig
+
+# Word documents
+~$*.docx
+~$*.dotx
+*.tmp
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Website files
+WebSite/
+LetterTemplate.dotx
+Letter_*.docx
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes

@@ -1,5 +1,9 @@
 # LetterServer
 
+[![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue.svg)](https://github.com/PowerShell/PowerShell)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/arminmarth/LetterServer/releases)
+
 A PowerShell-based web server that provides an interface for writing letters and merging them with Word templates.
 
 ## Overview
@@ -61,6 +65,11 @@ LetterServer creates a simple web server on a specified port and provides an HTM
 - `letter-server.ps1`: Main PowerShell script that runs the web server
 - `index.html`: HTML template for the letter writing interface
 - `letter.html`: HTML template for displaying the submitted letter
+- `assets/css/styles.css`: Stylesheet for the web interface
+- `templates/`: Directory containing Word templates
+  - `LetterTemplate.xml`: Sample Word template with placeholder
+
+![Screenshot](https://via.placeholder.com/800x450?text=LetterServer+Screenshot)
 
 ## Customization
 

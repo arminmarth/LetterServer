@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<w:wordDocument xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml">
+  <w:body>
+    <w:p>
+      <w:r>
+        <w:t>Dear Sir/Madam,</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>&lt;letter&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Sincerely,</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Your Name</w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:wordDocument>
